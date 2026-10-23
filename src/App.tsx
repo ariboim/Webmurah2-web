@@ -17,6 +17,7 @@ import { TestimonialsSection } from './components/TestimonialsSection';
 import { FaqSection } from './components/FaqSection';
 import { Footer } from './components/Footer';
 import { FloatingWhatsApp } from './components/FloatingWhatsApp';
+import { FloatingShare } from './components/FloatingShare';
 import { BackToTop } from './components/BackToTop';
 import { PromoModal } from './components/PromoModal';
 import { Sparkles, ArrowRight, MessageCircle, FileEdit, PhoneCall, ShieldCheck, Tag } from 'lucide-react';
@@ -234,6 +235,9 @@ export default function App() {
 
       {/* Floating WhatsApp Quick Action */}
       <FloatingWhatsApp />
+
+      {/* Floating Web Share Button (WhatsApp, Telegram, Email, Sosmed) */}
+      <FloatingShare />
 
       {/* Floating Promo 50% Badge Trigger (Clickable anytime) */}
       <button
